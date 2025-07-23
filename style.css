@@ -44,7 +44,7 @@ body::before {
   background-color: rgba(22, 27, 34, 0.637); /* más transparente */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(124, 196, 230, 0.527);
-  padding: 25px;
+  padding: 35px;
   width: 460px;
   text-align: center;
   z-index: 10;
@@ -149,8 +149,8 @@ h2 {
 
 @media screen and (max-width: 500px), screen and (max-width: 768px) {
     .card {
-        width:87%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
-        padding: 4%; /* Reducir el padding */
+        width: 90%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
+        padding: 6.4%; /* Reducir el padding */
     }
     .profile-img {
         width: 94px;
@@ -165,7 +165,7 @@ h2 {
     .description {
         font-size: 12px;
     }
-}
+
 
     .profile-img {
         width: 80px;
@@ -181,3 +181,4 @@ h2 {
         font-size: 12px;
     }
 
+}
