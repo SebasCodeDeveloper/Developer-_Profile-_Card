@@ -1,7 +1,12 @@
 <h2 align="center">  <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px" style="position: relative; top: -5px;" /><strong>Sebastian Peña — Desarrollador</strong></h2>
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTVpbjQ4NjRqbTE4cG9sMDVtNmhoOWtxMXN4bzJ1ZTU4cHJoeWZybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mviOBOrzMn6BYUdxvR/giphy.gif" width="140" alt="profile-gif"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aWxkcmdlbXFrc2gzdjQ2cmxrc2R2NGc2eW45emE5eW1ubnVvMXRuNiZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/XAxylRMCdpbEWUAvr8/giphy.gif" width="100" alt="profile-gif"/>	
+	
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3N0MTl1Nm0wNHFxdXM4cWdpaHE4eDVkbzIwcTBkZDk5cW94ajB6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kH1DBkPNyZPOk0BxrM/giphy.gif" width="140" alt="profile-gif"/>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bTU5NXEzd2c4b2JrOW0zNjZhZGtxM2Ftdmk4eTdyczY5ampwZXIxeiZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/fsEaZldNC8A1PJ3mwp/giphy.gif" width="100" alt="profile-gif"/>
+
 </p>
 
 ---
