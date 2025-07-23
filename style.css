@@ -11,8 +11,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
- min-height: 80vh; 
- padding-bottom: 390px;
+  height: 140vh; 
+ padding-bottom: 300px;
   overflow: hidden;
   position: relative;
  
