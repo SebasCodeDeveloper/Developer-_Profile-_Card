@@ -11,9 +11,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-    height: 80vh;
-    padding: 39px;
+ min-height: 100vh; 
+  padding: 39px;
   overflow: hidden;
+ 
 }
 
 body::before {
@@ -22,11 +23,10 @@ body::before {
   top: 0;
   left: 0;
   width: 250%;
-  height: 250%;
+  height:250%;
 background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
   background-size: contain;
   animation: moveStars 100s linear infinite;
-  opacity: 0.5;
   z-index: -1;
 }
 
