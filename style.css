@@ -42,7 +42,7 @@ body::before {
 .card {
   background-color: rgba(22, 27, 34, 0.288); /* más transparente */
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(185, 131, 221, 0.527);
+  box-shadow: 0 0 20px rgba(124, 196, 230, 0.603);
   padding: 35px;
   width: 460px;
   text-align: center;
@@ -88,14 +88,17 @@ h2 {
 .description {
   font-size: 14px;
   color: #c9d1d9;
-  margin-bottom: 16px;
+  margin-bottom: 1px;
 }
+
 .tags p {
   font-size: 18px;
   margin-bottom: 8px;
   padding: 10px 0;background: linear-gradient(to right, #A64AC9 ,#00BFFF );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .tags img {
