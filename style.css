@@ -149,7 +149,7 @@ h2 {
 
 @media screen and (max-width: 500px) {
     .card {
-        width: 86%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
+        width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
         padding: 28px; /* Reducir el padding */
     }
     .profile-img {
