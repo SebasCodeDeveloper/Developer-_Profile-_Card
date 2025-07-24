@@ -167,6 +167,8 @@ background-color: #58e6ff59;
 .card {
   width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
   padding: 6.4%; /* Reducir el padding */
+ position: relative;
+  top: -50px; /* mueve la tarjeta hacia arriba */
 }
 
 .profile-img {
