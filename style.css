@@ -7,7 +7,7 @@
 
 body {
   height: 87vh;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: white;
   display: flex;
