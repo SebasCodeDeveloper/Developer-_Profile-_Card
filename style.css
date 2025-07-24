@@ -56,7 +56,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card img:hover {
-transform: scale(1.2); /* Escala la imagen al pasar el cursor */
+transform: scale(1.1); /* Escala la imagen al pasar el cursor */
 transition: transform 0.3s cubic-bezier(0.4, 0, 1, 1);
 }
 
@@ -161,10 +161,10 @@ background-color: #58e6ff59;
 
 @media screen and (max-width: 500px), screen and (max-width: 768px) {
 .card {
-width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
-        padding: 6.4%; /* Reducir el padding */
-        padding: 4.4%; /* Reducir el padding */
+  width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
+  padding: 6.4%; /* Reducir el padding */
 }
+
 .profile-img {
 width: 94px;
 height: 31px;
@@ -178,13 +178,13 @@ font-size: 16px;
 .description {
 font-size: 12px;
 }
+
 .tags img {
 width: 90%;
 padding: 1px 2px;
 font-size: 12px;
 border-radius: 6px;
 background-color: rgba(88, 166, 255, 0.2);
-
 }
 
 .profile-img {
