@@ -6,50 +6,32 @@
 }
 
 body {
-  height: 87vh;
-  padding-bottom: 0px;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  height:  100vh ;
+  margin: 0;
+  padding: 0; 
+  width: 100%;
   overflow: hidden;
   position: relative;
-}
 
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250%;
-  height: 250%;
-  background: url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
-  background-size: contain;
-  animation: moveStars 100s linear infinite;
-  z-index: -1;
-}
-
-@keyframes moveStars {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-500px);
-  }
-}
-
-.card {
+}.card {
+  padding: 13px;
+  width: 45%;
   background-color: rgba(22, 27, 34, 0.288); /* más transparente */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(124, 196, 230, 0.603);
-  padding: 20px;
-  width: 460px;
   text-align: center;
-  z-index: 10;
-  position: relative;
+  z-index: 10px;
+  position: center;
+
 }
+
+
+
 .card:hover {
   transform: translateY(-10px); /* Mueve la tarjeta ligeramente hacia arriba */
   box-shadow: 0 0 30px rgba(124, 196, 230, 0.8); /* Cambia la sombra al pasar el cursor */
@@ -165,6 +147,7 @@ h2 {
         width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
         padding: 4.4%; /* Reducir el padding */
     }
+    
     .profile-img {
         width: 94px;
         height: 31px;
@@ -200,4 +183,26 @@ h2 {
     .description {
         font-size: 12px;
     }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250%;
+  height: 250%;
+  background: url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
+  background-size: contain;
+  animation: moveStars 100s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-500px);
+  }
 }
