@@ -6,16 +6,17 @@
 }
 
 body {
+  height: 101vh;
+  padding-bottom: 0px;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 115vh;
-  padding-bottom: 200px;
   overflow: hidden;
   position: relative;
 }
+
 
 body::before {
   content: "";
@@ -43,7 +44,7 @@ body::before {
   background-color: rgba(22, 27, 34, 0.288); /* más transparente */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(124, 196, 230, 0.603);
-  padding: 35px;
+  padding: 20px;
   width: 460px;
   text-align: center;
   z-index: 10;
@@ -56,7 +57,7 @@ body::before {
 }
 
 .card img:hover {
-  transform: scale(1.2); /* Escala la imagen al pasar el cursor */
+  transform: scale(1.1); /* Escala la imagen al pasar el cursor */
 transition: transform 0.3s cubic-bezier(0.4, 0, 1, 1);
 }
 
