@@ -19,14 +19,14 @@ body {
   position: relative;
 
 }.card {
-  padding: 13px;
-  width: 45%;
+
   background-color: rgba(22, 27, 34, 0.288); /* más transparente */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(124, 196, 230, 0.603);
   text-align: center;
-  z-index: 10px;
-  position: center;
+  padding: 13px;
+  width: 45%;
+  margin-top: 1.5%;
 
 }
 
