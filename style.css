@@ -6,8 +6,8 @@
 }
 
 body {
-  height: 93vh;
-  padding-bottom: 0px;
+  height: 87vh;
+  padding-bottom: 16px;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: white;
   display: flex;
