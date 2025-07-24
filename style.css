@@ -40,15 +40,19 @@ transform: translateY(-500px);
 }
 
 .card {
+
 background-color: rgba(22, 27, 34, 0.288); /* más transparente */
 border-radius: 16px;
 box-shadow: 0 0 20px rgba(124, 196, 230, 0.603);
-padding: 35px;
-width: 460px;
+padding: 20px;
+width: 50%;
 text-align: center;
 z-index: 10;
 position: relative;
+margin-top: 100px; /* Añadir margen superior para centrar verticalmente */
+
 }
+
 .card:hover {
 transform: translateY(-10px); /* Mueve la tarjeta ligeramente hacia arriba */
 box-shadow: 0 0 30px rgba(124, 196, 230, 0.8); /* Cambia la sombra al pasar el cursor */
