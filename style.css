@@ -149,7 +149,10 @@ body::before {
   background-size: contain;
   animation: moveStars 100s linear infinite;
   z-index: -1;
-  @media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 768px) {
     .card {
         width: 90%; 
         padding: 4.4%;
@@ -195,7 +198,4 @@ body::before {
     transform: translateY(-500px);
   }
 }
-
-}
-
 
