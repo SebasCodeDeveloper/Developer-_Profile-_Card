@@ -1,3 +1,4 @@
+/* Estilo global que aplica a todos los elementos del DOM */
 *{
 box-sizing: border-box;
 font-family: "Courier New", Courier, monospace;
@@ -5,6 +6,7 @@ margin: 0;
 padding: 0;
 }
 
+/* Estilo general del body con fondo espacial y centrado de contenido */
 body {
 background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 color: white;
@@ -17,6 +19,7 @@ overflow: hidden;
 position: relative;
 }
 
+/* Capa estelar animada que se mueve en el fondo del body */
 body::before {
 content: "";
 position: fixed;
@@ -30,6 +33,7 @@ animation: moveStars 100s linear infinite;
 z-index: -1;
 }
 
+/* Animación del fondo estelar para crear un efecto de movimiento */
 @keyframes moveStars {
 from {
 transform: translateY(0);
@@ -39,6 +43,7 @@ transform: translateY(-500px);
 }
 }
 
+/* Contenedor principal de la tarjeta de presentación */
 .card {
 background-color: rgba(22, 27, 34, 0.288); /* más transparente */
 border-radius: 16px;
@@ -51,17 +56,20 @@ position: relative;
 margin-top: 120px; /* Añadir margen superior para centrar verticalmente */
 }
 
+/* Efecto hover para animar la tarjeta */
 .card:hover {
 transform: translateY(-10px); /* Mueve la tarjeta ligeramente hacia arriba */
 box-shadow: 0 0 30px rgba(124, 196, 230, 0.8); /* Cambia la sombra al pasar el cursor */
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Efecto de zoom al pasar el mouse sobre la imagen de perfil */
 .card img:hover {
 transform: scale(1.1); /* Escala la imagen al pasar el cursor */
 transition: transform 0.3s cubic-bezier(0.4, 0, 1, 1);
 }
 
+/* Estilo circular para la imagen de perfil */
 .profile-img {
 width: 100px;
 height: 100px;
@@ -71,28 +79,33 @@ margin-bottom: 12px;
 border: 3px solid #00ffff;
 }
 
+/* Nombre del desarrollador */
 h2 {
 font-size: 24px;
 }
 
+/* Subtítulo con rol o cargo */
 .subtitle {
 color: #8b949e;
 font-size: 18px;
 margin-bottom: 8px;
 }
 
+/* Ciudad o ubicación del desarrollador */
 .location {
 font-size: 14px;
 color: #58a6ff;
 margin-bottom: 12px;
 }
 
+/* Descripción breve del desarrollador */
 .description {
 font-size: 14px;
 color: #c9d1d9;
 margin-bottom: 1px;
 }
 
+/* Estilo para las etiquetas de habilidades */
 .tags p {
 font-size: 18px;
 margin-bottom: 8px;
@@ -103,6 +116,7 @@ background-clip: text;
 font-weight: bold;
 }
 
+/* Imagen que representa las tecnologías (logos) */
 .tags img {
 color: white;
 font-size: 14px;      
@@ -115,10 +129,12 @@ background-color: rgba(88, 166, 255, 0.2);
 padding: 10px ;
 }
 
+/* Contenedor de redes sociales */
 .socials {
 margin-top: 16px;
 }
 
+/* Estilo de enlaces de redes */
 .socials a {
 margin: 0 8px;
 color: #58a6ff;
@@ -126,25 +142,30 @@ text-decoration: none;
 font-size: 18px;
 }
 
+/* Efecto al pasar el mouse sobre los enlaces */
 .socials a:hover {
 color: #00ffff;
 }
 
+/* Estilo de las imágenes de redes sociales */
 .socials img {
 object-fit: cover;
 }
 
+/* Icono de red social */
 .socials img:hover {
 transform: scale(1.2);
 transition: transform 0.3s ease;
 }
 
+/* Efecto de zoom sobre íconos sociales */
 .socials a:hover img {
 transform: scale(1.1); /* Escala un poco más el icono */
 filter: brightness(1.3); /* Añadir brillo cuando se pasa el cursor */
 transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+/* Botón de contacto */
 .contact-btn a  {
 background-color: #3a3a3a4f;
 color: #f0f0f0;
@@ -157,10 +178,13 @@ text-decoration: none;
 font-weight: bold;
 transition: background-color 0.3s ease;
 }
+
+/* Efecto hover del botón de contacto */
 .contact-btn a:hover {
 background-color: #58e6ff59;
 }
 
+/* Media queries para pantallas pequeñas */
 @media screen and (max-width: 500px), screen and (max-width: 768px) {
 .card {
   width: 85%; /* Ajustar el ancho de la tarjeta en pantallas más pequeñas */
